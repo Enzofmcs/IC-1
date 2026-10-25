@@ -7,7 +7,7 @@
     "original_source_sha256": "29726d97eeb8e9b73215246a67b4d5482516ec3dd31ad85a7e5c7daeeff845e5",
     "destination": "notebooks/historical/01_spectra_csv.ipynb",
     "purpose": "Consolidação de espectros CSV UTF-16LE; absorção por comprimento de onda.",
-    "limitations": "Requer arquivoscsv/*.CSV; revisar nomes de colunas e o recorte até 400.",
+    "limitations": "Os seis CSVs chegaram na complementação; o composto das séries numeradas permanece sem identificação. O CSV 1 aparece somente em uma consolidação.",
     "saved_errors": []
   },
   {
@@ -18,7 +18,7 @@
     "original_source_sha256": "c70eebb290301e4a3c3525e1c78928ea6cd0f5e9028638fa10ce93ce329dbd46",
     "destination": "notebooks/historical/02_spectral_difference.ipynb",
     "purpose": "Diferença de curvas e interpolação cúbica.",
-    "limitations": "Planilha ALL SRF & IMT.xlsx ausente; IMT/SRF não identificados. Ordena x sem reordenar y e possui trecho final sem import.",
+    "limitations": "ALL SRF & IMT.xlsx fornecida na complementação; siglas não identificadas. Ordena x sem reordenar y; a fórmula da planilha usa outra referência de subtração.",
     "saved_errors": []
   },
   {
@@ -40,7 +40,7 @@
     "original_source_sha256": "e11370e1ee0a5bf6c207a0561c7429adb95df07ca1982a1fed554f4044658561",
     "destination": "notebooks/historical/04_nova_calibration.ipynb",
     "purpose": "Variante com ordenação natural, filtro de potencial e R².",
-    "limitations": "Depende de planilhas externas; escreve cabeçalhos sobre a primeira linha de dados da tabela de máximos e captura erros sem detalhar.",
+    "limitations": "As seis tabelas VIN e os derivados foram fornecidos; a curva foi recalculada. Persistem erros de cabeçalho e chamadas fora de ordem no original; use ic1.reproduce.",
     "saved_errors": []
   },
   {
