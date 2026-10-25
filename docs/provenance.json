@@ -1,0 +1,68 @@
+[
+  {
+    "source_id": "B02",
+    "archive": "drive-download-20261025T212319Z-1-001.zip",
+    "original_path": "00-IC.ipynb",
+    "original_sha256": "cc59694d209c479f86726ed7e752e010c9722d38bb172e956f4d46fd4ad360ab",
+    "original_source_sha256": "29726d97eeb8e9b73215246a67b4d5482516ec3dd31ad85a7e5c7daeeff845e5",
+    "destination": "notebooks/historical/01_spectra_csv.ipynb",
+    "purpose": "Consolidação de espectros CSV UTF-16LE; absorção por comprimento de onda.",
+    "limitations": "Requer arquivoscsv/*.CSV; revisar nomes de colunas e o recorte até 400.",
+    "saved_errors": []
+  },
+  {
+    "source_id": "B00",
+    "archive": "drive-download-20261025T212319Z-1-001.zip",
+    "original_path": "01-subcode.ipynb",
+    "original_sha256": "097ca976f54651db73557a4021222c5041714f8ce41e64eab60b9e1e0b153ecc",
+    "original_source_sha256": "c70eebb290301e4a3c3525e1c78928ea6cd0f5e9028638fa10ce93ce329dbd46",
+    "destination": "notebooks/historical/02_spectral_difference.ipynb",
+    "purpose": "Diferença de curvas e interpolação cúbica.",
+    "limitations": "Planilha ALL SRF & IMT.xlsx ausente; IMT/SRF não identificados. Ordena x sem reordenar y e possui trecho final sem import.",
+    "saved_errors": []
+  },
+  {
+    "source_id": "A03",
+    "archive": "Colab Notebooks-20261025T212334Z-1-001.zip",
+    "original_path": "Colab Notebooks/02-NOVAcreateexcel.ipynb",
+    "original_sha256": "0457dde909c165b668a03c9b30079b909d1c822cdb14790ebc84cb48f0e09f8f",
+    "original_source_sha256": "d5760eefbd16fff756a2bb4295abd261542183f80f6661b74fb646515a17bca7",
+    "destination": "notebooks/historical/03_nova_initial.ipynb",
+    "purpose": "Primeira variante de consolidação NOVA e ajuste linear.",
+    "limitations": "Duas definições de NOVAsheet; chamada de análise antes da geração e exemplo final incompleto.",
+    "saved_errors": []
+  },
+  {
+    "source_id": "B01",
+    "archive": "drive-download-20261025T212319Z-1-001.zip",
+    "original_path": "02-NOVAcreateexcel.ipynb",
+    "original_sha256": "fd6a3632b683a121626c7796f471d5b5ad3df1b37e9377afd9ff25edd4ca084d",
+    "original_source_sha256": "e11370e1ee0a5bf6c207a0561c7429adb95df07ca1982a1fed554f4044658561",
+    "destination": "notebooks/historical/04_nova_calibration.ipynb",
+    "purpose": "Variante com ordenação natural, filtro de potencial e R².",
+    "limitations": "Depende de planilhas externas; escreve cabeçalhos sobre a primeira linha de dados da tabela de máximos e captura erros sem detalhar.",
+    "saved_errors": []
+  },
+  {
+    "source_id": "A10",
+    "archive": "Colab Notebooks-20261025T212334Z-1-001.zip",
+    "original_path": "Colab Notebooks/Untitled14.ipynb",
+    "original_sha256": "8d665e3bc7fa483b4d3130867c860fbb818d266e294b0c78efeb7c5c62b8fd3f",
+    "original_source_sha256": "2385e5ff24be8feed39c31eaea39e40be3daf838a0394a10d8354b80d67476b7",
+    "destination": "notebooks/historical/05_peak_exploration.ipynb",
+    "purpose": "Inspeção de corrente por tempo/potencial e localização do máximo.",
+    "limitations": "Planilha sla.xlsx não fornecida; composto não identificado.",
+    "saved_errors": []
+  },
+  {
+    "source_id": "C26",
+    "archive": "Colab Notebooks-20261025T212215Z-1-001.zip",
+    "original_path": "Colab Notebooks/IC-01.ipynb",
+    "original_sha256": "80fbaafcfb59849fe0299db47f8f49e1f923cf150b7fd3c45606a1f379cb74ee",
+    "original_source_sha256": "5c5af76c12518a37f64321c6d5adb07491d047b836f67cf9a65f8ec509c14dfb",
+    "destination": "notebooks/historical/06_antibody_exploration.ipynb",
+    "purpose": "Exploração de máximos de enzima/anticorpo e regressão.",
+    "limitations": "Vínculo com a IC-1 pendente; ordena sinais independentemente das concentrações e lê arquivo antes de gerá-lo. Não usar como curva validada.",
+    "saved_errors": []
+  }
+]
