@@ -1,0 +1,265 @@
+{
+  "reports": [
+    {
+      "name": "RELATÓRIO FINAL ENZO FABRÍCIO CORREIA DE SOUZA (ajuste 1).docx",
+      "sha256": "8a4f517a6c0738647521bff458a9dec2d175d6d442810c7e0a35dfc3550a0d8e",
+      "bytes": 6233263
+    }
+  ],
+  "archive": {
+    "name": "IniciaçãoCientífica-20261025T215432Z-1-001.zip",
+    "sha256": "281af1a73fd5d2bc96348e75dc9fc2bbab69a107a9ad80deb09d3376b16819f5",
+    "bytes": 643527
+  },
+  "data_tables": [
+    {
+      "original_path": "planilhasNOVA/VIN-1000nmol.xlsx",
+      "original_sha256": "0e9a83f5c5f073384637ff5f80f7329aa9c8ff012754c8eecc9bc59efe1dc020",
+      "destination": "data/source_tables/vincristine/VIN-1000nmol.csv",
+      "sheet": "Sheet1",
+      "rows": 74,
+      "columns": [
+        "Index",
+        "Potential applied (V)",
+        "Base.Time (s)",
+        "WE(1).Base.Current (A)",
+        "WE(1).Pulse.Current (A)",
+        "WE(1).δ.Current (A)",
+        "WE(1).Base.Potential (V)"
+      ],
+      "conversion": "Valores numéricos lidos com Pandas; CSV UTF-8, 17 dígitos significativos. Sem filtro de linhas.",
+      "source_dimension_issue": "XML declara A1, mas há 75 linhas com cabeçalho e 7 colunas; leitura não limitada à dimensão declarada.",
+      "csv_sha256": "39c4fb4a03c454e9e513dadd3b1ca70167633fee9b06e760fc3844d5f7835b19"
+    },
+    {
+      "original_path": "planilhasNOVA/VIN-1200nmol.xlsx",
+      "original_sha256": "b943b4269e2f4d2623b2d5676dbfaf394218adb357900b3d37e673879dcc05fe",
+      "destination": "data/source_tables/vincristine/VIN-1200nmol.csv",
+      "sheet": "Sheet1",
+      "rows": 74,
+      "columns": [
+        "Index",
+        "Potential applied (V)",
+        "Base.Time (s)",
+        "WE(1).Base.Current (A)",
+        "WE(1).Pulse.Current (A)",
+        "WE(1).δ.Current (A)",
+        "WE(1).Base.Potential (V)"
+      ],
+      "conversion": "Valores numéricos lidos com Pandas; CSV UTF-8, 17 dígitos significativos. Sem filtro de linhas.",
+      "source_dimension_issue": "XML declara A1, mas há 75 linhas com cabeçalho e 7 colunas; leitura não limitada à dimensão declarada.",
+      "csv_sha256": "6b0bf7f8464c150a5dacc0b0f00db35cc8563004efe18d3b4438e46a14784bdb"
+    },
+    {
+      "original_path": "planilhasNOVA/VIN-200nmol.xlsx",
+      "original_sha256": "462d132e09fbac6c83dd261607c4bba1e7a4ae19cd5a5fbfb19d60c8a8ca1462",
+      "destination": "data/source_tables/vincristine/VIN-200nmol.csv",
+      "sheet": "Sheet1",
+      "rows": 74,
+      "columns": [
+        "Index",
+        "Potential applied (V)",
+        "Base.Time (s)",
+        "WE(1).Base.Current (A)",
+        "WE(1).Pulse.Current (A)",
+        "WE(1).δ.Current (A)",
+        "WE(1).Base.Potential (V)"
+      ],
+      "conversion": "Valores numéricos lidos com Pandas; CSV UTF-8, 17 dígitos significativos. Sem filtro de linhas.",
+      "source_dimension_issue": "XML declara A1, mas há 75 linhas com cabeçalho e 7 colunas; leitura não limitada à dimensão declarada.",
+      "csv_sha256": "a00a7059b3217930fb265cd43d7cd01b81dae02932365609df9d2eae2b3e699f"
+    },
+    {
+      "original_path": "planilhasNOVA/VIN-400nmol.xlsx",
+      "original_sha256": "f5e3430128d44a87c6fcd6d7ccb93fe36b9934751a88b29dbc1bb550840dc006",
+      "destination": "data/source_tables/vincristine/VIN-400nmol.csv",
+      "sheet": "Sheet1",
+      "rows": 74,
+      "columns": [
+        "Index",
+        "Potential applied (V)",
+        "Base.Time (s)",
+        "WE(1).Base.Current (A)",
+        "WE(1).Pulse.Current (A)",
+        "WE(1).δ.Current (A)",
+        "WE(1).Base.Potential (V)"
+      ],
+      "conversion": "Valores numéricos lidos com Pandas; CSV UTF-8, 17 dígitos significativos. Sem filtro de linhas.",
+      "source_dimension_issue": "XML declara A1, mas há 75 linhas com cabeçalho e 7 colunas; leitura não limitada à dimensão declarada.",
+      "csv_sha256": "7709dbd1d9cf5bac15a1e6b11d44eebf823d40fd3e4f9889af759d5c4f401a03"
+    },
+    {
+      "original_path": "planilhasNOVA/VIN-600nmol.xlsx",
+      "original_sha256": "46b7874d639430842a363f438027fe0150c5ebf09c451bbb5ca6fd048f300b87",
+      "destination": "data/source_tables/vincristine/VIN-600nmol.csv",
+      "sheet": "Sheet1",
+      "rows": 74,
+      "columns": [
+        "Index",
+        "Potential applied (V)",
+        "Base.Time (s)",
+        "WE(1).Base.Current (A)",
+        "WE(1).Pulse.Current (A)",
+        "WE(1).δ.Current (A)",
+        "WE(1).Base.Potential (V)"
+      ],
+      "conversion": "Valores numéricos lidos com Pandas; CSV UTF-8, 17 dígitos significativos. Sem filtro de linhas.",
+      "source_dimension_issue": "XML declara A1, mas há 75 linhas com cabeçalho e 7 colunas; leitura não limitada à dimensão declarada.",
+      "csv_sha256": "857836f5eb3121ff74bce25e50e06b65646e28ad67015e8af5b14da64594ea69"
+    },
+    {
+      "original_path": "planilhasNOVA/VIN-800nmol.xlsx",
+      "original_sha256": "b83f36db4344e6f59af6c60c73b4604737f0f5a068f954c0b514d087f6b207e2",
+      "destination": "data/source_tables/vincristine/VIN-800nmol.csv",
+      "sheet": "Sheet1",
+      "rows": 74,
+      "columns": [
+        "Index",
+        "Potential applied (V)",
+        "Base.Time (s)",
+        "WE(1).Base.Current (A)",
+        "WE(1).Pulse.Current (A)",
+        "WE(1).δ.Current (A)",
+        "WE(1).Base.Potential (V)"
+      ],
+      "conversion": "Valores numéricos lidos com Pandas; CSV UTF-8, 17 dígitos significativos. Sem filtro de linhas.",
+      "source_dimension_issue": "XML declara A1, mas há 75 linhas com cabeçalho e 7 colunas; leitura não limitada à dimensão declarada.",
+      "csv_sha256": "b2f4f55819dfa921c7d09ed5479a7d3ce9602d09ad375860b2620e11bffde3e2"
+    },
+    {
+      "original_path": "arquivoscsv/0.CSV",
+      "original_sha256": "1c3cf1cfbd229276ceb6cc1ab73a394d661fdaede3458c1127a8bc6a04c31317",
+      "destination": "data/source_tables/spectra/0.csv",
+      "rows": 911,
+      "conversion": "Transcodificação UTF-16LE para UTF-8, removendo somente BOM. Valores textuais preservados.",
+      "analyte": "not identified",
+      "csv_sha256": "b8c52d16f3154f820a9ac241c5097b6776e6a570c66a9e00aa1dfe91ddd024ca"
+    },
+    {
+      "original_path": "arquivoscsv/2.CSV",
+      "original_sha256": "b757d282d11292758065f7fe7faf18f6656c7258ccb098a5a15b8a371dc178a0",
+      "destination": "data/source_tables/spectra/2.csv",
+      "rows": 911,
+      "conversion": "Transcodificação UTF-16LE para UTF-8, removendo somente BOM. Valores textuais preservados.",
+      "analyte": "not identified",
+      "csv_sha256": "e203058571179004b59eea4bfa4b898759982c1694ce6d6af3ab40fd9bf086f8"
+    },
+    {
+      "original_path": "arquivoscsv/3.CSV",
+      "original_sha256": "79c50db9dd406def967b99d4892fbe125a79d8142182fd45d147ca4b934e471b",
+      "destination": "data/source_tables/spectra/3.csv",
+      "rows": 911,
+      "conversion": "Transcodificação UTF-16LE para UTF-8, removendo somente BOM. Valores textuais preservados.",
+      "analyte": "not identified",
+      "csv_sha256": "1a7aa98ed5c6d78f5a4b524c481a024df5eb07b7b75e25a1244bf89cf5fa7951"
+    },
+    {
+      "original_path": "arquivoscsv/4.CSV",
+      "original_sha256": "47cfa10912370c104a0006481dd0dce72e31b4f6224ac12821341d1e809136dd",
+      "destination": "data/source_tables/spectra/4.csv",
+      "rows": 911,
+      "conversion": "Transcodificação UTF-16LE para UTF-8, removendo somente BOM. Valores textuais preservados.",
+      "analyte": "not identified",
+      "csv_sha256": "7bb92e17d8a925e840b3a25ca0676deea21996fb45fc84c81dd65837a065676b"
+    },
+    {
+      "original_path": "arquivoscsv/5.CSV",
+      "original_sha256": "c4d4f9c884b6b11d953da83aded3d43fddab712d665e9c47a072605ae9d7f838",
+      "destination": "data/source_tables/spectra/5.csv",
+      "rows": 911,
+      "conversion": "Transcodificação UTF-16LE para UTF-8, removendo somente BOM. Valores textuais preservados.",
+      "analyte": "not identified",
+      "csv_sha256": "6c6f4e2968f609003554d59f2662189d298f5deff9be5a3fefc58660a65945c7"
+    },
+    {
+      "original_path": "arquivoscsv/6.CSV",
+      "original_sha256": "09b1b2333cc60df12059bd268175327e1e235b664c36b8623aa5f031d9f90dda",
+      "destination": "data/source_tables/spectra/6.csv",
+      "rows": 911,
+      "conversion": "Transcodificação UTF-16LE para UTF-8, removendo somente BOM. Valores textuais preservados.",
+      "analyte": "not identified",
+      "csv_sha256": "4d559b8a07560ce696c677f139029b74e9341d2a86cac4db2577570d842b8db1"
+    },
+    {
+      "original_path": "tesss2/novaplanilha.xlsx",
+      "original_sha256": "3e924368060ba6113a1328baa94ff3a5ce9cd717bb7f66cc2fd769ea0405c8f4",
+      "destination": "data/reference/vincristine_consolidated.csv",
+      "rows": 69,
+      "columns": [
+        "x",
+        "VIN-200nmol",
+        "VIN-400nmol",
+        "VIN-600nmol",
+        "VIN-800nmol",
+        "VIN-1000nmol",
+        "VIN-1200nmol"
+      ],
+      "conversion": "Valores transcritos para CSV. Na série IMT/SRF, apenas A:G; fórmulas e valores derivados H:J excluídos para não escolher silenciosamente uma referência de subtração.",
+      "csv_sha256": "e579bcbf59abafef2d68660c13e772c652ad40e910f29f27eb5a7bb7c08b428d"
+    },
+    {
+      "original_path": "tesss2/novaplanilha2.xlsx",
+      "original_sha256": "4eb97991dc2a4410b93a5fd464377d5bcdfebbbc61f5d5a231943b28e92b9274",
+      "destination": "data/reference/vincristine_peaks.csv",
+      "rows": 6,
+      "columns": [
+        "amount_label_nmol",
+        "peak_current_A"
+      ],
+      "conversion": "Valores transcritos para CSV. Na série IMT/SRF, apenas A:G; fórmulas e valores derivados H:J excluídos para não escolher silenciosamente uma referência de subtração.",
+      "csv_sha256": "4ddd843a693b29c627171d75913c6fcf1f328ab70c607ceddc08df45b18faf8c"
+    },
+    {
+      "original_path": "newsheet/test1.xlsx",
+      "original_sha256": "d712ffbe778e855f57e84b794f4e2252b07f79c9623595a1f4e89a74f2fc51f9",
+      "destination": "data/reference/spectra_190_400.csv",
+      "rows": 211,
+      "columns": [
+        "wavelenght",
+        "0.CSV",
+        "2.CSV",
+        "3.CSV",
+        "4.CSV",
+        "5.CSV",
+        "6.CSV"
+      ],
+      "conversion": "Valores transcritos para CSV. Na série IMT/SRF, apenas A:G; fórmulas e valores derivados H:J excluídos para não escolher silenciosamente uma referência de subtração.",
+      "csv_sha256": "eaa384aef0b0de9e9da3a93b1f84bf3f97ff2d854f5abf14d4b0391c6a403b66"
+    },
+    {
+      "original_path": "ALL SRF & IMT.xlsx",
+      "original_sha256": "d30f772444a905a99d3b5f1db36c80c12d7cb6dde8ca694c7b35c49c59c1ab40",
+      "destination": "data/source_tables/supplemental/srf_imt_spectra.csv",
+      "rows": 911,
+      "columns": [
+        "Wavelength (nm)",
+        "SRF 2uM",
+        "IMT 1uM",
+        "IMT 1uM SRF 2uM",
+        "IMT 1uM SRF 4uM",
+        "IMT 1uM SRF 6uM",
+        "IMT 1uM SRF 8uM"
+      ],
+      "conversion": "Valores transcritos para CSV. Na série IMT/SRF, apenas A:G; fórmulas e valores derivados H:J excluídos para não escolher silenciosamente uma referência de subtração.",
+      "csv_sha256": "03c2c08fe7dd2221b0493bb2cc8a29507de0fb2d634458a85bdfa44e49e45211"
+    }
+  ],
+  "exclusions": [
+    {
+      "path": "tesss2/~$novaplanilha.xlsx; tesss2/~$novaplanilha2.xlsx",
+      "reason": "Arquivos temporários de bloqueio do Excel; não são dados."
+    },
+    {
+      "path": "testes/teste32/X.xlsx",
+      "reason": "Ensaio sem rótulo de composto/quantidade; não usado na curva VIN."
+    },
+    {
+      "path": "newsheet/12-12-23-ALL.xlsx",
+      "reason": "Versão consolidada inclui 1.CSV ausente no ZIP; mantida apenas na análise local. Colunas comuns conferem com test1.xlsx."
+    },
+    {
+      "path": "00-IC.ipynb; 01-subcode.ipynb; 02-NOVAcreateexcel.ipynb",
+      "reason": "Idênticos por SHA-256 a B02, B00 e B01 já preservados."
+    }
+  ]
+}

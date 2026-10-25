@@ -4,7 +4,7 @@
 
 Repositório de iniciação científica de **Enzo Souza**, com ferramentas para organizar medições experimentais, extrair máximos de corrente e ajustar relações entre concentração e resposta instrumental.
 
-O objetivo informado pelo autor é a medição da concentração de **metotrexato ou vincristina**. Os notebooks recuperados incluem sinais eletroquímicos, espectros e uma exploração de enzima/anticorpo; os arquivos disponíveis não permitem associar cada série a um desses compostos. Essa identificação aguarda o relatório da pesquisa e as planilhas de origem.
+O relatório identifica a pesquisa como **Otimização da coleta de dados de métodos analíticos desenvolvidos para a detecção do antitumoral metotrexato**, sob orientação de **Prof. Dr. Augusto Etchegaray Júnior**, na PUC-Campinas. Seu foco é automatizar a organização, análise e visualização de dados de HPLC e biossensores/eletroquímica. A seção de resultados inclui vincristina e metotrexato. O documento se identifica internamente como relatório parcial de setembro/2023 a fevereiro/2024, apesar do nome de arquivo “RELATÓRIO FINAL”.
 
 ## Comece por aqui
 
@@ -50,6 +50,16 @@ tests/                     Verificações numéricas e de integridade dos sinais
 
 ## Estado dos resultados
 
-Há uma saída histórica de R² = **0,985** na variante `B01`. Trata-se de um ajuste registrado, **não reexecutado**: faltam os dados brutos, a identificação do composto, as unidades completas e uma avaliação independente. O repositório não estabelece limite de detecção, limite de quantificação ou validação analítica.
+A série **VIN**, identificada como vincristina pelo contexto do relatório e pelos nomes das amostras, agora pode ser recalculada a partir de seis tabelas instrumentais fornecidas pelo autor. O ajuste aos máximos reproduz **R² = 0,984966**, compatível com o **0,985** salvo em `B01`. Os seis rótulos vão de 200 a 1.200 **nmol**: essa unidade foi preservada como quantidade rotulada, sem conversão em concentração, pois o volume não foi fornecido. O ajuste não estabelece LOD, LOQ ou validação independente. [Dados, método e resultado](docs/report_review.md).
 
-A versão organizada corrige problemas de alinhamento e pareamento encontrados nos protótipos. Ela é uma implementação posterior, não uma reprodução automática das saídas históricas. [Detalhes](docs/experiments.md) · [Origem](docs/provenance.json) · [Autoria e direitos](RIGHTS.md).
+A versão organizada corrige problemas de alinhamento e pareamento encontrados nos protótipos. É uma implementação posterior; a reprodução numérica da série VIN foi verificada separadamente. [Detalhes](docs/experiments.md) · [Origem dos notebooks](docs/provenance.json) · [Origem das tabelas](docs/additional_sources.json) · [Autoria e direitos](RIGHTS.md).
+
+## Reproduzir a série instrumental fornecida
+
+```sh
+python -m ic1.reproduce --output outputs/vincristine_001
+```
+
+O comando lê as tabelas CSV incluídas em `data/source_tables/vincristine/`, reaplica a janela histórica de potencial e salva sinais selecionados, máximos e ajuste em uma pasta nova. [Notebook com os dados fornecidos](notebooks/03_supplied_vincristine.ipynb).
+
+O repositório contém ainda seis espectros CSV com desvio-padrão e uma série suplementar rotulada IMT/SRF. O composto dos espectros numerados e o significado de IMT/SRF continuam sem confirmação; eles não são apresentados como medições identificadas de metotrexato.

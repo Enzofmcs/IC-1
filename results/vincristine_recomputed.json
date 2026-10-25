@@ -1,0 +1,29 @@
+{
+  "analyte_label": "VIN",
+  "x_variable": "amount_label_nmol",
+  "y_variable": "peak_current_A",
+  "window": {
+    "lower_potential_V": -0.025177002,
+    "upper_potential_V": null
+  },
+  "source_rows_per_signal": 74,
+  "selected_rows_per_signal": 69,
+  "fit": {
+    "slope": 3.1991141183035732e-09,
+    "intercept": 5.0739746093750004e-05,
+    "r_squared": 0.984966035764324,
+    "rmse": 1.34998597327221e-07,
+    "n": 6,
+    "amount_label_min_nmol": 200.0,
+    "amount_label_max_nmol": 1200.0
+  },
+  "historical_B01_R2_rounded": 0.985,
+  "matches_recorded_R2_at_three_decimals": true,
+  "limitations": [
+    "nmol é o rótulo de quantidade dos arquivos; sem volume não foi convertido em concentração.",
+    "Há uma série por rótulo; não foram fornecidas réplicas independentes para este ajuste.",
+    "R² descreve o ajuste aos seis pontos e não estabelece LOD, LOQ ou validação externa."
+  ],
+  "status": "recomputed_from_supplied_numeric_tables",
+  "source_archive": "IniciaçãoCientífica-20261025T215432Z-1-001.zip"
+}

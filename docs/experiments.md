@@ -14,14 +14,14 @@ Essa sequência é conceitual; os arquivos não comprovam a ordem cronológica d
 
 `A03` define `NOVAsheet` duas vezes; a definição final altera o formato esperado. `B01` usa ordenação natural dos nomes, inclui a janela `Potential applied (V) >= -0.025177002`, cria uma tabela de máximos e acrescenta R². Na tabela de máximos, a escrita em A1/B1 sobrepõe o cabeçalho da primeira linha. Nenhuma dessas decisões deve ser assumida adequada a outros dados sem revisar o protocolo.
 
-`B00` usa colunas chamadas `IMT 1uM` e `IMT 1uM SRF 8uM`. O significado de IMT/SRF não foi identificado. `C26` lê uma planilha com enzima e anticorpo; também não há evidência suficiente para associá-la a metotrexato ou vincristina. O autor informou não reconhecer essas siglas no momento da curadoria; o relatório integral da IC ainda não foi fornecido.
+`B00` usa colunas chamadas `IMT 1uM` e `IMT 1uM SRF 8uM`. O significado de IMT/SRF não foi identificado. `C26` lê uma planilha com enzima e anticorpo; também não há evidência suficiente para associá-la a metotrexato ou vincristina. O documento adicional confirma o tema geral da IC e inclui resultados de vincristina, mas não resolve essas duas identificações. Consulte `report_review.md` para a reprodução da série VIN.
 
 ## Problemas que motivaram a versão organizada
 
 - Unir correntes por índice pode combinar grades de potencial diferentes silenciosamente. `consolidate_signals` agora exige grades compatíveis.
 - Em `B00`, ordenar apenas x perde a correspondência com y. `subtract_signals` preserva os pares e recusa grades incompatíveis.
 - Em `C26`, ordenar apenas os máximos antes da regressão destrói o pareamento concentração/resposta. O novo ajuste recebe explicitamente os pares.
-- Planilhas ausentes, variáveis herdadas e chamadas fora de ordem impedem uma execução limpa dos cadernos históricos.
+- Variáveis herdadas e chamadas fora de ordem dificultam uma execução limpa dos cadernos históricos. As planilhas de VIN e espectros chegaram na complementação; as de `sla.xlsx` e enzima/anticorpo continuam ausentes.
 - A nova API recusa valores não finitos, concentrações constantes e extrapolação implícita. Não altera sinais por suavização antes de encontrar picos.
 
 ## Evidência histórica
@@ -33,7 +33,7 @@ Consulte `results/historical_evidence.json`: cada trecho indica notebook e núme
 | A03 | y = 2,81e-07 x + 5,11e-05 | Coeficientes de uma execução registrada; conjunto e unidade não recuperados |
 | B01 | y = 3,20e-09 x + 5,07e-05; R² = 0,985 | Ajuste registrado de outra variante; não comparar inclinações sem os dados |
 
-Os registros não comprovam precisão de estimação de concentração, seletividade, recuperação, estabilidade, LOD ou LOQ. Essas propriedades não foram recalculadas.
+O ajuste B01 foi posteriormente recalculado com as tabelas VIN fornecidas, coincidindo no arredondamento registrado. Isso não comprova precisão de estimação de concentração, seletividade, recuperação, estabilidade, LOD ou LOQ; essas propriedades não foram estabelecidas. Veja `report_review.md`.
 
 ## Como adicionar os dados reais
 
