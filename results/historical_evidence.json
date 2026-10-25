@@ -1,0 +1,19 @@
+[
+  {
+    "source_id": "A03",
+    "original_cell_1based": 5,
+    "evidence_type": "saved_output_not_reexecuted",
+    "lines": [
+      "Equação da reta: y = 2.81e-07x + 5.11e-05"
+    ]
+  },
+  {
+    "source_id": "B01",
+    "original_cell_1based": 7,
+    "evidence_type": "saved_output_not_reexecuted",
+    "lines": [
+      "Equação da reta: y = 3.20e-09x + 5.07e-05",
+      "R² = 0.985"
+    ]
+  }
+]
